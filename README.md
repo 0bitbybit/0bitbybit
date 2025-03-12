@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning #Qwasar.io, Mozilla AI Blueprints
 - 💞️ I’m looking to collaborate on Mozilla AI Blueprints (https://www.mozilla.ai/blueprints)
 - 📫 How to reach me active6@protonmail.com
-- ⚡ Fun fact: I love outdoor camping :)
+- ⚡ Fun fact: I love outdoor hiking and camping :)
 
 <!---
 0bitbybit/0bitbybit is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
