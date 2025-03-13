@@ -1,29 +1,28 @@
-# Welcome to My Imdb Api
+# Welcome to My First Scraper
 ***
 
 ## Task
-Create a back-end program, API, to function as a temporary server
-for a movie review repository website. My server program will storage
-and make available a list of movies and associated info for five genres
-the user can search for using a query string or using /"genre". 
+We want to scrape a webpage, or even the html file of a downloaded page. The challenge is to find only the 
+html elements of interest, use Beautiful soup html parsing library and code to output the scraped data to a readable
+string such as a CSV string.  
 
 ## Description
-Used flask, and several associated libraries to setup an IP connection, and 
-using JSON tools to transform a csv into JSON to feed to the web server. 
-My API is a simple example of a back-end proogram.
+First, researched the topic using a python book "automate boring stuff" and a youtube lesson to figure out how to scrape
+and then several instructionals to learn to parse the output.  My program uses 4 functions: Request- downloads web pages'
+html, Extract-returns items of interest from a given page, e.g. hyperlinks, Transform - returns formats data into a list of 
+key:values, Format - returns a long string of readable plain text which can then be used many ways.    
 
 ## Installation
-To install, use a python code editor. Must have internet connection. Must save 
-app.py and a csv containing the data you want to parse through.
-Must be in the same folder. Simply run the code. This will begin the flask server connection.
-
+This progam can be run in an IDE or from a command line. It can be run using function calls, or without functions, in which
+case the code needs a slight modification.
 
 ## Usage
-
-This program can be either used by entering this into a webpage "/genre" or by using the command line "curl ?genre=western" command
-This is how to use the flask server to run this backend api.
+Supply a url, requests.get means ping the webage for its html, extract has specific html
+locations to grab the parts of the page we want and then it stores these in a list using zip and
+list to limit the return list to 25 items only, storing it in pairs. Data makes the list of data 
+pretty i.e. "developer" etc, format gets the data into a readable string.  
 ```
-app.py  no params needed
+run it in the terminal by using python my_first_scraper.py 
 ```
 
 ### The Core Team
