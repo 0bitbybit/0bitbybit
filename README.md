@@ -1,9 +1,8 @@
-- 👋 Hi, I’m @0bitbybit
-- 👀 I’m intereseted in API creation, machine learning/AI.
-- 🌱 I’m currently learning #Qwasar.io, Mozilla AI Blueprints
+- 👋 Hi, I’m Gabe.
+- 👀 I’m intereseted in everything, but I want to next learn more about python libraries, API creation, and leveraging LLMs.
+- 🌱 I’m currently learning at Qwasar.io
 - 💞️ I’m looking to collaborate on Mozilla AI Blueprints (https://www.mozilla.ai/blueprints)
-- 📫 How to reach me active6@protonmail.com
-- ⚡ Fun fact: I love outdoor hiking and camping :)
+- 📫 How to reach me: active6@protonmail.com
 
 <!---
 0bitbybit/0bitbybit is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
