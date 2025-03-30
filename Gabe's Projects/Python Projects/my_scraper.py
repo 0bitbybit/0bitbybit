@@ -1,7 +1,8 @@
-#This program is a basic web scraper using Beautiful Soup library
+"""This program is a basic web scraper using Beautiful Soup library. Web scraping is downloading then
+processing content from the web. It can also scrape downloaded HTML files offline """
 
-import requests
-from bs4 import BeautifulSoup
+import requests #library to get and send data to webpages (servers) or APIs
+from bs4 import BeautifulSoup #scraping tool for parsing HTML and XML
 #from itertools import chain
 
 #url = "https://storage.googleapis.com/qwasar-public/track-ds/trending_14_06_2022"
