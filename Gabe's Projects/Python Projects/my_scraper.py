@@ -1,6 +1,6 @@
 #Gabe Jasso
-"""This program is a basic web scraper using Beautiful Soup library. Web scraping is downloading then
-processing content from the web. It can also scrape downloaded HTML files offline """
+"""This program is a basic web scraper using Beautiful Soup v.4 library (parses HTML/XML). Web scraping is downloading then
+processing content from the web. This program can also scrape downloaded files offline """
 
 import requests #library to get and send data to webpages (servers) or APIs
 from bs4 import BeautifulSoup #scraping tool for parsing HTML and XML
