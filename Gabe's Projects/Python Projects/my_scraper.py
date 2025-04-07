@@ -6,13 +6,13 @@ import requests #library to get and send data to webpages (servers) or APIs
 from bs4 import BeautifulSoup #scraping tool for parsing HTML and XML
 #from itertools import chain
 
-#url = "https://storage.googleapis.com/qwasar-public/track-ds/trending_14_06_2022"
+url = "https://github.com/trending"
 
 def request_github_trending(url): #enter https://github.com/trending
-    #global page
-    #page = requests.get(url)
+    global page
+    page = requests.get(url)
     return requests.get(url)
-    #return page
+    return page
 
 def extract(page):
 
@@ -75,8 +75,8 @@ def format(array_of_dict):
     #print(result_string)
     return result_string
     
-        
-#data = extract(page)
+request_github_trending(url)
+data = extract(page)
 #print(data)
-#array_of_dict = transform(data)
-#print(array_of_dict)
+array_of_dict = transform(data)
+print(array_of_dict)
